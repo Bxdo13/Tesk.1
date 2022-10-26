@@ -1,6 +1,7 @@
 public class Example2 {
     public static void main(String[] args) {
-
+        Time time =new Time(5,27,53);
+        System.out.println(time);
     }
     public class Circle{
         private double radius;

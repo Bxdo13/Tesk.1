@@ -1,10 +1,4 @@
 import javax.xml.crypto.Data;
-
-public class Example3 {
-    public static void main(String[] args) {
-
-    }
-
     public class Time {
         private int hr;
         private int min;
@@ -23,11 +17,7 @@ public class Example3 {
 
         @Override
         public String toString() {
-            return "Time{" +
-                    "hr=" + hr +
-                    ", min=" + min +
-                    ", second=" + second +
-                    '}';
+            return hr + " hour "+min+" minut "+second+" second ";
         }
     }
-}
+

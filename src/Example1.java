@@ -35,7 +35,6 @@ public class Example1 {
         private double price;
         private int qtyInStock;
         private Autor autor;
-
         public Book(String name,Autor autor, double price) {
             super(autor.getName(),autor.getEmail(),autor.getGender());
             this.name = name;
